@@ -1,7 +1,9 @@
 # Created by https://www.gitignore.io/api/windows,phpstorm
 
-# video content
+# fixes files
 archivos/imagenes/video.mp4
+package.json
+package-lock.json
 
 # Server logs
 access_log
