@@ -15,4 +15,4 @@
     <img src="imagenes/3.png" width="150" height="120" alt="" />
   </section>
 
-<?php include('includes/footer.php');?>
+<?php include('includes/footer.php') ?>

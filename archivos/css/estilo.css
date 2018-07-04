@@ -124,6 +124,22 @@ padding: 10px;
 
 }
 
+.casaca {
+  padding: 100px 0;
+  width: 100%;
+  margin: 25px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.casaca h2 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
 .filas1{
 	text-align: center;
 }
@@ -150,10 +166,19 @@ text-align: justify;
 padding: 10px 3px;
 margin:10px;
 }
+
 .imagenes{
-	height: 200px;
+	height: 250px;
 	background-color: #565A7A;
 }
+
+.imagenes a {
+	color: #fff;
+	text-align: center;
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
 .imagenes h3{
 	text-align: center;
 	font-family: Century Gothic;

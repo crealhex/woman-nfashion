@@ -1,0 +1,28 @@
+{
+  "name": "roxana",
+  "version": "1.0.0",
+  "description": "'Tienda de ropa para mujeres'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crealhex/roxana.git"
+  },
+  "keywords": [
+    "'shop",
+    "mark'"
+  ],
+  "author": "'Roxana & Jonathan'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crealhex/roxana/issues"
+  },
+  "homepage": "https://github.com/crealhex/roxana#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^4.0.1"
+  }
+}
