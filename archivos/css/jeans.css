@@ -1,0 +1,115 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+
+}
+.contenedor{
+	width: 1000px;
+	margin: auto;
+	
+}
+
+body{
+	background-image: url(../imagenes/fondo2.png);
+}
+header{
+	height: 100px;
+	background-color: #FFFFFF;
+}
+header h1{
+	text-align: center;
+	line-height: 100px;
+}
+.menu{
+	float: right;
+	
+}
+.menu > li{
+	display: inline-block;
+	position: relative;	
+}
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	font-family: Century Gothic;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.menu li a:hover{
+	color:#FE2E2E;
+	transition: all .3s;	
+}
+.submenu1{
+	position: absolute;
+	background-color: #000000;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.submenu1 li a{
+	display: block;
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #2E9AFE;
+	font-family: Century Gothic;
+	text-decoration: none;
+}
+.menu li:hover .submenu1{
+	visibility: visible;
+	opacity: 1;
+}
+.redes{
+	height: 95px;
+	background-color: #F5A9A9;
+	padding: 10px;
+}
+.redes h2{
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+}
+.sociales{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.sociales li{
+	display: inline-block;
+	margin-left: 10px;
+}
+.sociales a{
+	padding: 10px
+}
+.jeans{
+	background-color: rgba(133, 121, 158, .3);
+	padding: 10px;
+
+}
+table{
+	margin-left: 250px;
+	background-color: rgba(131, 180, 163, .8);
+
+}
+.jeans td{
+	text-decoration: bold ;
+	font-size: 20px;
+	
+}
+.jeans img{
+	padding: 5px; 
+}
+
+footer{
+	background-color: #F5A9BC;
+	clear: both;
+}
+footer h2{
+	font-size: 15px;
+	text-align: center;
+	padding: 10px;
+	font-style: italic;
+	font-family: Consolas; 
+}
